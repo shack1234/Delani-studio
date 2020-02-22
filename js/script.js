@@ -23,3 +23,20 @@ $(document).ready(function () {
         $('#textarea-feed').html(textRemaining + " " + 'characters remaining');
     });
 });
+
+// form validation
+function myforms() {
+    var buttons = document.getElementById("button");
+    buttons.onclick = function (event) {
+        var name = document.forms["myForm"]["cName"].value;
+        var email = document.forms["myForm"]["cEmail"].value;
+        var message = document.forms["myForm"]["textarea"].value;
+        if (name == "" || email == "" || message == "") {
+            alert("Please fill in all the fields and try again to submit");
+            return false;
+        }
+        if (name !== "" && email !== "" && message !== "") {
+            alert("Hello " + name + " " + ", Your message has been sent successful! we will reach out to you soon");
+        }
+    }
+}
