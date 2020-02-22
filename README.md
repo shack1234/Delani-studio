@@ -21,4 +21,4 @@ Once you are on the landing page;
 ### Link to Deployed System
   * Link:
 ### License and Copyright Information.
-  <a href="/home/shadrack/Documents/prep_projects/delani studio/LICENSE.txt">click here to view the licence</>
+  <a href="./delani studio/LICENSE.txt">click here to view the licence</>
