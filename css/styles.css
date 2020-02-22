@@ -1,0 +1,168 @@
+body{
+    border: 60px solid white;
+}
+html{
+    font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
+}
+.section1 {
+    padding: 50px;
+    background-color: black;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.text-section1 {
+    padding-top: 14%;
+    color: white;
+    font-size: 12px;
+}
+.text-pad {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.mouse-icon {
+    padding-top: 8%;
+}
+#mouse_click{
+    animation-direction: alternate;
+    position: relative;
+    animation: bounce 5s infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+@keyframes mymove {
+from {left: 0px; right:0px;}
+to {left: 200px;}
+}
+img#mouse_click{
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.section2 {
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+.text-section2 {
+    font-size: 12px;
+}
+.section3 {
+    padding: 85px;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+}
+.text-section3 {
+    color: white;
+    font-size: 14px;
+}
+.aboutus {
+    padding: 50px;
+}
+.h3 {
+    padding-top: 10px;
+}
+.table {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.portfolio {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+/* contact css */
+.contact {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+}
+.text-contact {
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+.contact-us input,
+.contact-us textarea,
+.contact-btn button {
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+.contact-email {
+    margin-left: 200px;
+}
+
+div.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
+.contact-btn button:hover {
+    border: 2px solid #fff;
+}
+/* end of contact css */
+div.footer-imgs {
+    margin-bottom: 10px;
+}
+div.footer-imgs img {
+    margin: 7px 5px;
+}
+div.footer p {
+    font-size: 0.7rem;
+}
+.footer-content {
+    padding-top: 25px;
+}
+
+/* end of footer css */
+::placeholder {
+    color:whitesmoke;
+    font-size: 24px;
+}
+#development,
+#pmanagent,
+#design-p {
+    display: none;
+}
+.contact-btn button :hover{
+    color: gold;
+}
+#textarea-feed{
+   color: black;
+}
