@@ -1,0 +1,22 @@
+body{
+    border: 60px solid white;
+}
+html{
+    font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
+}
+.section1 {
+    padding: 50px;
+    background-color: black;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.text-section1 {
+    padding-top: 14%;
+    color: white;
+    font-size: 12px;
+}
+.text-pad {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
