@@ -21,4 +21,5 @@ Once you are on the landing page;
 ### Link to Deployed System
   * Link:
 ### License and Copyright Information.
-  <a href="./delani studio/LICENSE.txt">click here to view the licence</>
+click the link below to view the licence.
+ https://github.com/shack1234/Delani-studio/blob/development/LICENSE.txt
