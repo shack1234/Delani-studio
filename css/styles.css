@@ -85,3 +85,26 @@ img {
     align-self: center;
     padding-bottom: 40px;
 }
+
+/* contact css */
+.contact {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+}
+.text-contact {
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
