@@ -2,9 +2,9 @@
 DELANI STUDIO
 ## Project Description
 A project that uses javascript and jquery to effect effects on them and validate them..basically how example icons can be styled using jquery
-### Author Information
+## Author Information
  Shadrack Anayo.
-### Setup instructions
+## Setup Instructions
 Once you are on the landing page;
   *you will see the welcome note, welcoming you to the studio
   * There is also a section for about delani studio
