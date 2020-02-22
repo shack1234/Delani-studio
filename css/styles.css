@@ -108,3 +108,61 @@ img {
     background: transparent;
     color: white;
 }
+
+.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+.contact-us input,
+.contact-us textarea,
+.contact-btn button {
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+.contact-email {
+    margin-left: 200px;
+}
+
+div.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
+.contact-btn button:hover {
+    border: 2px solid #fff;
+}
+/* end of contact css */
+div.footer-imgs {
+    margin-bottom: 10px;
+}
+div.footer-imgs img {
+    margin: 7px 5px;
+}
+div.footer p {
+    font-size: 0.7rem;
+}
+.footer-content {
+    padding-top: 25px;
+}
+
+/* end of footer css */
+::placeholder {
+    color:whitesmoke;
+    font-size: 24px;
+}
+#development,
+#pmanagent,
+#design-p {
+    display: none;
+}
+.contact-btn button :hover{
+    color: gold;
+}
+#textarea-feed{
+   color: black;
+}
