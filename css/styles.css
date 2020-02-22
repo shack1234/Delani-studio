@@ -71,3 +71,17 @@ img {
 .aboutus {
     padding: 50px;
 }
+.h3 {
+    padding-top: 10px;
+}
+.table {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.portfolio {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 40px;
+}
