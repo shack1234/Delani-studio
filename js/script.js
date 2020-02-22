@@ -40,3 +40,7 @@ function myforms() {
         }
     }
 }
+// function to reload the contage page after submission
+function reset() {
+    window.location.reload();
+}
