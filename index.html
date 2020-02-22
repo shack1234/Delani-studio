@@ -198,7 +198,23 @@
             </div>
         </div>
     </div>
-    
+    <!-- end of portfolio  -->
+    <div class="contact">
+        <div class="text-contact">
+            <h3>CONTACT US</h3>
+            <form onsubmit="return false" method="post" name="myForm" action="../script.js" class="contact-us">
+                <input type="text" placeholder="Enter your name" class="contact-name" id="cName">
+                <input type="email" placeholder="Enter your email" class="contact-email" id="cEmail">
+                <textarea maxlength="500" id="textarea" cols="100" rows="10" placeholder="Talk to us here"></textarea>
+                <div id="textarea-feed"></div>
+                <div class="contact-btn">
+                    <button onclick="myforms()" id="button">Submit</button>
+                    <button onclick="reset()" id="button">clear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+   
 </body>
 
 </html>
